@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "NoirPro";
+    src: local("NoirPro"),
+     url("./fonts/NoirPro/NoirPro-Medium.otf") format("OpenType");
+    font-weight: Medium;
+    }
+
+body{
+    font-family: "NoirPro";
+    background-color: #050C24;
+}
+
+.MainPage{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color:rebeccapurple ;
+}
+ 
+
+.layout{
+
+}
+
+.HighlightedItem{
+    grid-area: HighlightedItem;
+    background-color: aquamarine;
+}
+
+.Item2{
+    grid-area: Item2;
+    background-color: bisque;
+}
+
+.Item3{
+    grid-area: Item3;
+    background-color: coral;
+}
+
+.Item4{
+    grid-area: Item4;
+    background-color:azure
+}
+
+.Item5{
+    grid-area: Item5;
+    background-color: burlywood;
+}
