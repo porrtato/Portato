@@ -1,8 +1,12 @@
 import React from 'react'
+import './App.css';
+
 
 function Item2() {
   return (
-    <div>Item2</div>
+    <>
+    <div className='Item2 boxItem'>Item2</div>
+    </>
   )
 }
 

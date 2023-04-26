@@ -1,49 +1,61 @@
 @font-face {
     font-family: "NoirPro";
     src: local("NoirPro"),
-     url("./fonts/NoirPro/NoirPro-Medium.otf") format("OpenType");
+     url("./fonts/NoirPro/NoirPro-Regular.otf") format("OpenType");
     font-weight: Medium;
     }
 
 body{
     font-family: "NoirPro";
     background-color: #050C24;
+
 }
 
-.MainPage{
+.boxItem{
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.imagecontain{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.SkinMainPage{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 5vw;
     padding-right: 5vw;
-    background-color:rebeccapurple ;
 }
  
 
-.layout{
-
-}
-
 .HighlightedItem{
-    grid-area: HighlightedItem;
-    background-color: aquamarine;
+    height: 50vh;
+    background-color: #554EA7;
+
 }
 
 .Item2{
-    grid-area: Item2;
+    height: 100%;
     background-color: bisque;
 }
 
 .Item3{
-    grid-area: Item3;
+    height: 100%;
     background-color: coral;
 }
 
 .Item4{
-    grid-area: Item4;
+    height: 100%;
     background-color:azure
 }
 
 .Item5{
-    grid-area: Item5;
+    height: 100%;
     background-color: burlywood;
 }

@@ -1,8 +1,9 @@
 import React from 'react'
+import './App.css';
 
 const Item3 = () => {
   return (
-    <div>Item3</div>
+    <div className='Item3 boxItem'>Item3</div>
   )
 }
 
