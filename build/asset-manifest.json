@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portato/static/css/main.fc7830a3.css",
+    "main.js": "/portato/static/js/main.2fa75884.js",
+    "static/media/MenuSongs.png": "/portato/static/media/MenuSongs.8e13ec474c88947457ba.png",
+    "static/media/NewSkinImage2.png": "/portato/static/media/NewSkinImage2.007589c08f9566734147.png",
+    "static/media/GameplayOsu.png": "/portato/static/media/GameplayOsu.40d7c838b6003aa53064.png",
+    "static/media/GameplayCatch.png": "/portato/static/media/GameplayCatch.aeb6fa260f178555be9c.png",
+    "static/media/NewSkinImage3.png": "/portato/static/media/NewSkinImage3.128da1c8c0de6fa2ab01.png",
+    "static/media/GameplayMania.png": "/portato/static/media/GameplayMania.7237bad355d475c6a99f.png",
+    "static/media/NewSkinImage1.png": "/portato/static/media/NewSkinImage1.e9d454ca27f7dc2adabc.png",
+    "static/media/Title.png": "/portato/static/media/Title.e9d454ca27f7dc2adabc.png",
+    "static/media/NewSkinImage4.png": "/portato/static/media/NewSkinImage4.b8525d959680d2de060b.png",
+    "static/media/NoirPro-Medium.otf": "/portato/static/media/NoirPro-Medium.3ad97aac980524836c42.otf",
+    "static/media/NoirPro-Regular.otf": "/portato/static/media/NoirPro-Regular.ab8b00340d45c6598e13.otf",
+    "index.html": "/portato/index.html",
+    "main.fc7830a3.css.map": "/portato/static/css/main.fc7830a3.css.map",
+    "main.2fa75884.js.map": "/portato/static/js/main.2fa75884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc7830a3.css",
+    "static/js/main.2fa75884.js"
+  ]
+}
