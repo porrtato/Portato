@@ -9,6 +9,54 @@ body{
     font-family: "NoirPro";
     background-color: #050C24;
 
+
+}
+
+.text{
+    color: white;
+}
+.pageContainer{
+
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: #050C24;
+    color: white;
+}
+
+.button{
+    width: fit-content;
+    background-color: #335089;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 16px;
+}
+
+.buttonSkinpage{
+    margin: 50px;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButtonsSkinpage{
+    height: 100%;
+    width: 100%;
+    display:grid;
+    justify-content: center;
+    align-items: center
+
+}
+
+
+.button:hover{
+transition: all .2s ease-in-out;
+transform: scale(1.05);
+cursor: pointer;
 }
 
 .boxItem{
@@ -17,9 +65,28 @@ body{
     padding: 5px;
     padding-left: 35px;
     padding-right: 35px;
+    transition: all .2s ease-in-out;
 }
+
+
+.allBlocks:hover .selectBlock:not(:hover){
+    opacity: 90%;
+    transition: all .2s ease-in-out;
+}
+
+
+
+.selectBlock:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+
+
 .contain{
-height: 30vh;
+height: 36vh;
 }
 .imagecontain{
     max-height: 100%;
@@ -29,16 +96,13 @@ height: 30vh;
 }
 
 .SkinMainPage{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+ color: white;
 }
  
 
 .HighlightedItem{
     height: 100%;
-    background-color: #554EA7;
+    background-color: #2a3a6d;
 
 }
 
@@ -61,3 +125,4 @@ height: 30vh;
     height: 100%;
     background-color: burlywood;
 }
+

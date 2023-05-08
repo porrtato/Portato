@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "NoirPro";
+    src: local("NoirPro"),
+     url("../fonts/NoirPro/NoirPro-Regular.otf") format("OpenType");
+    font-weight: Medium;
+    }
+
+
+.slide{
+    width: 1120px;
+    height: 630px;
+}
+
+.slideImage1{
+    background-image: url("../images/Aqua/Title.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slideImage2{
+    background-image: url("../images/Aqua/MenuSongs.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slideImage3{
+    background-image: url("../images/Aqua/GameplayOsu.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slideImage4{
+    background-image: url("../images/Aqua/GameplayMania.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slideImage5{
+    background-image: url("../images/Aqua/GameplayCatch.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slideButtons{
+        font-family: "NoirPro";
+    margin: 10px;
+	border:1px solid #1f2f47;
+
+    background-color: #335089;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 16px;
+    
+}
+
+.buttonContainer{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container{
+    width: 1120px;
+    height: 630px;
+
+}
